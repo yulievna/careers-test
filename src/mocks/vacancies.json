@@ -1,0 +1,116 @@
+[
+  {
+    "id": "geologist-ufa",
+    "title": "Инженер-геолог",
+    "city": "Уфа",
+    "branch": "Башкортостан",
+    "employment": "Полная занятость",
+    "experience": "От 1 года",
+    "postedAt": "2025-08-25",
+    "salaryFrom": 70000,
+    "salaryTo": 0,
+    "currency": "RUB",
+    "tags": ["2 вакансии", "Офис/поле", "Вахтовый метод"],
+    "responsibilities": [
+      "Полевые исследования и отбор проб",
+      "Подготовка технических отчётов"
+    ],
+    "requirements": [
+      "Профильное образование",
+      "Умение работать с ГИС/AutoCAD — плюс"
+    ],
+    "conditions": [
+      "Официальное оформление",
+      "ДМС, корпоративная связь"
+    ]
+  },
+  {
+    "id": "excavator-operator-rostov",
+    "title": "Машинист экскаватора",
+    "city": "Ростов-на-Дону",
+    "branch": "ЮФО",
+    "employment": "Полная занятость",
+    "experience": "От 2 лет",
+    "postedAt": "2025-09-01",
+    "salaryFrom": 80000,
+    "salaryTo": 0,
+    "currency": "RUB",
+    "tags": ["Смена 12ч", "Открытые горные работы"],
+    "responsibilities": [
+      "Управление экскаватором на объекте",
+      "Ежедневный осмотр и ТО"
+    ],
+    "requirements": [
+      "Удостоверение машиниста",
+      "Опыт от 2 лет"
+    ],
+    "conditions": [
+      "Сдельная оплата, премии",
+      "Жильё при вахте"
+    ]
+  },
+  {
+    "id": "lab-tech-kazan",
+    "title": "Лаборант химического анализа",
+    "city": "Казань",
+    "branch": "Поволжье",
+    "employment": "Полная занятость",
+    "experience": "От 1 года",
+    "postedAt": "2025-09-10",
+    "salaryFrom": 65000,
+    "salaryTo": 0,
+    "currency": "RUB",
+    "tags": ["Сменный график", "Лаборатория"],
+    "responsibilities": ["Проведение анализов", "Ведение журналов"],
+    "requirements": ["Среднее спец./высшее", "Знание методик ГОСТ"],
+    "conditions": ["ДМС", "Корпоративное обучение"]
+  },
+  {
+    "id": "mechanic-novokuz",
+    "title": "Слесарь-ремонтник",
+    "city": "Новокузнецк",
+    "branch": "Кузбасс",
+    "employment": "Полная занятость",
+    "experience": "От 1 года",
+    "postedAt": "2025-09-05",
+    "salaryFrom": 70000,
+    "salaryTo": 90000,
+    "currency": "RUB",
+    "tags": ["5/2", "Цех ремонта"],
+    "responsibilities": ["Ремонт и ТО оборудования"],
+    "requirements": ["Чтение чертежей", "Опыт с гидравликой — плюс"],
+    "conditions": ["Официальная з/п", "Премии за KPI"]
+  },
+  {
+    "id": "geologist-krasnoyarsk",
+    "title": "Инженер-геолог",
+    "city": "Красноярск",
+    "branch": "Сибирь",
+    "employment": "Вахтовый метод",
+    "experience": "От 3 лет",
+    "postedAt": "2025-08-30",
+    "salaryFrom": 120000,
+    "salaryTo": 0,
+    "currency": "RUB",
+    "tags": ["Вахта 30/30", "Поле"],
+    "responsibilities": ["Супервизия бурения", "Камеральные работы"],
+    "requirements": ["AutoCAD/GIS", "Водительское удостоверение"],
+    "conditions": ["Проезд/проживание за счёт компании"]
+  },
+  {
+    "id": "excavator-operator-kemerovo",
+    "title": "Машинист экскаватора",
+    "city": "Кемерово",
+    "branch": "Кузбасс",
+    "employment": "Полная занятость",
+    "experience": "От 1 года",
+    "postedAt": "2025-09-12",
+    "salaryFrom": 90000,
+    "salaryTo": 110000,
+    "currency": "RUB",
+    "tags": ["День/ночь", "Угольный разрез"],
+    "responsibilities": ["Погрузочно-разгрузочные работы"],
+    "requirements": ["Удостоверение, мед. допуск"],
+    "conditions": ["Премии за выработку", "Спецодежда"]
+  }
+]

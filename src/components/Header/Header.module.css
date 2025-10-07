@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  margin: 28px 0 73px;
+}
+
+.header__container {
+  width: 1796px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__navContainer {
+  display: flex;
+  gap: 76px;
+  align-items: center;
+}
+
+.header__navList {
+  display: flex;
+  gap: 46px;
+}
+
+.header__navItem {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header__navText:active,
+.header__navText:hover {
+  color: #EF9D53;
+}
+
+.header__navNumber {
+  color: rgb(0, 0, 0, 50%);
+  font-weight: 400;
+}
+
+.header__navText {
+  font-weight: 600;
+}
+
+.header__searchBtn {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header__searchIcon {
+  display: block; 
+}

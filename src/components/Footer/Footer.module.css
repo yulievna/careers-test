@@ -1,0 +1,140 @@
+.footer {
+  background-color: #222222;
+  color: #FFF;
+  padding: 45px 0 25px;
+  margin-top: 100px;
+}
+
+.footer__container {
+  width: 1796px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.footer__logo {
+  flex: 0 0 auto;
+}
+
+.footer__logoImage {
+  width: auto;
+  height: 40px;
+}
+
+.footer__logoText {
+  font-size: 28px;
+  font-weight: 600;
+  color: #FFF;
+  margin: 0;
+}
+
+.footer__navList {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  flex: 0 0 auto;
+}
+
+.footer__navItem {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer__navItem:hover {
+  color: #FFF;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 0 0 auto;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer__contactTitle {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.footer__contactText {
+  color: rgb(255, 255, 255, 0.95);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.footer__more {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex: 0 0 auto;
+  max-width: 400px;
+}
+
+.footer__more p {
+  color: #FFF;
+  font-size: 20px;
+}
+
+.footer__btn {
+  background: transparent;
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px 25px;
+  transition: all 0.2s ease;
+  align-self: flex-start;
+}
+
+.footer__btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer__divider {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 40px 0 20px;
+}
+
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 27px;
+}
+
+.footer__bottom p {
+  color: rgba(255, 255, 255, 0.2);
+  margin: 0;
+}
+
+.footer__bottom a {
+  color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer__bottom a:hover {
+  color: #CCCCCC;
+}
+
+

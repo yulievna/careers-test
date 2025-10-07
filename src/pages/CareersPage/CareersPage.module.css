@@ -1,0 +1,44 @@
+.careers__container{
+    width: 1796px;
+    margin: 0 auto;
+}
+.careers__title{
+    font-size: 36px;
+    font-weight: 600;
+}
+.careers__content{
+    margin-top: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 318px;
+}
+.careers__sidebar{
+    max-width: 437px;
+}
+.careers__info{
+    max-width: 1041px;
+}
+.careere__text{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 51px;
+}
+.careers__cards{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.emptyState{
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    width: fit-content;
+}
+.emptyState button{
+    width: 100%;
+}

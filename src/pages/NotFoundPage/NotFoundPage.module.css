@@ -1,0 +1,25 @@
+.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFound__container {
+  text-align: center;
+}
+
+.notFound__title {
+  font-size: 146px;
+  margin: 0;
+  color: #000;
+}
+
+.notFound__subtitle {
+  font-size: 32px;
+  color: #333;
+  margin: 16px 0 30px;
+}
+
+.notFound__btn {
+  width: 100%;
+}

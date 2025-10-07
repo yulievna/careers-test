@@ -1,0 +1,109 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.form__title {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.form__text {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.form__fileWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form__fileInput {
+  display: none; 
+}
+
+.form__fileLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: 1px solid #C7C7C7;
+  border-radius: 16px;
+  padding: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+.form__fileLabel span {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.form__fileLabel:hover {
+  border-color: #EF9D53;
+}
+.form__textarea { 
+    min-height: 144px; 
+    resize: none; 
+}
+.form__checkboxLabel {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.4);
+}
+.form__checkboxLabel span{
+    display: inline;
+}
+.form__checkboxInput {
+  display: none;
+}
+
+.form__checkboxCustom {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #C7C7C7;
+  border-radius: 6px;
+  background-color: #F0F0F0;
+  flex-shrink: 0;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.form__checkboxInput:checked + .form__checkboxCustom {
+  background-color: #000;
+  border-color: #000;
+}
+
+.form__checkboxInput:checked + .form__checkboxCustom::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  width: 6px;
+  height: 12px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.form__checkboxText{
+  color: rgba(0, 0, 0, 0.4);
+}
+.form__checkboxText a{
+  color: rgba(0, 0, 0, 0.6);
+}
+.form__btn {
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+.form__btn:hover {
+  background: #e08a3a;
+}
