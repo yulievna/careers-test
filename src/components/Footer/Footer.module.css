@@ -1,6 +1,6 @@
 .footer {
   background-color: #222222;
-  color: #FFF;
+  color: #fff;
   padding: 2.8rem 0 1.5rem;
   margin-top: 6rem;
   box-sizing: border-box;
@@ -32,7 +32,7 @@
 .footer__logoText {
   font-size: 1.75rem;
   font-weight: 600;
-  color: #FFF;
+  color: #fff;
   margin: 0;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .footer__navItem {
-  color: #FFF;
+  color: #fff;
   font-size: 0.8rem;
   font-weight: 600;
   text-decoration: none;
@@ -52,7 +52,7 @@
 }
 
 .footer__navItem:hover {
-  color: #FFF;
+  color: #fff;
 }
 
 .footer__contacts {
@@ -69,7 +69,7 @@
 }
 
 .footer__contactTitle {
-  color: #FFF;
+  color: #fff;
   font-size: 1.25rem;
   font-weight: 600;
   margin: 0;
@@ -91,14 +91,14 @@
 }
 
 .footer__more p {
-  color: #FFF;
+  color: #fff;
   font-size: 1.25rem;
 }
 
 .footer__btn {
   background: transparent;
-  border: 1px solid #FFF;
-  color: #FFF;
+  border: 1px solid #fff;
+  color: #fff;
   font-size: 1rem;
   border-radius: 3.125rem;
   padding: 0.8rem 1.5rem;
@@ -136,7 +136,7 @@
 }
 
 .footer__bottom a:hover {
-  color: #CCCCCC;
+  color: #cccccc;
 }
 
 @media (max-width: 1920px) {

@@ -14,7 +14,7 @@ const CareersPage = () => {
   const vacancyId = searchParams.get('vacancy');
   const selectedVacancy = vacancies.find((v) => v.id === vacancyId);
 
-  const { searchText } = useOutletContext<{searchText: string}>();
+  const { searchText } = useOutletContext<{ searchText: string }>();
   const [draftFilters, setDraftFilters] = useState<Filters>({});
   const [appliedFilters, setAppliedFilters] = useState<Filters>({});
 
@@ -37,15 +37,13 @@ const CareersPage = () => {
     setSearchParams(params);
   }, [appliedFilters]);
 
-
   const filtered = useMemo(() => {
     const base = applyFilters(vacancies, appliedFilters);
     if (!searchText.trim()) return base;
     const query = searchText.toLowerCase();
     return base.filter(
-        (v) =>
-            v.title.toLowerCase().includes(query) ||
-            v.tags.some((t) => t.toLowerCase().includes(query))
+      (v) =>
+        v.title.toLowerCase().includes(query) || v.tags.some((t) => t.toLowerCase().includes(query))
     );
   }, [vacancies, appliedFilters, searchText]);
   // const filtered = useMemo(() => applyFilters(vacancies, combinedFilters), [vacancies, combinedFilters]);

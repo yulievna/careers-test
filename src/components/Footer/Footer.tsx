@@ -8,7 +8,9 @@ const Footer = () => {
       <div className={s.footer__container}>
         <div className={s.footer__main}>
           <div className={s.footer__logo}>
-            <a href="/"><img src="/assets/images/logo-white.svg" alt="Figma" /></a>
+            <a href="/">
+              <img src="/assets/images/logo-white.svg" alt="Figma" />
+            </a>
           </div>
 
           <nav className={s.footer__navList}>
