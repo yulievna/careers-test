@@ -2,24 +2,74 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 50vh;
+  padding: 2rem;
 }
 
 .notFound__container {
   text-align: center;
+  max-width: 37.5rem;
+  width: 100%;
 }
 
 .notFound__title {
-  font-size: 146px;
+  font-size: 9.125rem;
   margin: 0;
   color: #000;
+  font-weight: 600;
 }
 
 .notFound__subtitle {
-  font-size: 32px;
+  font-size: 2rem;
   color: #333;
-  margin: 16px 0 30px;
+  margin: 1rem 0 1.8rem;
+  font-weight: 600;
 }
 
 .notFound__btn {
   width: 100%;
+  max-width: 18.75rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .notFound {
+    padding: 1.5rem;
+    min-height: 40vh;
+  }
+
+  .notFound__title {
+    font-size: 6rem;
+  }
+
+  .notFound__subtitle {
+    font-size: 1.5rem;
+    margin: 0.75rem 0 1.5rem;
+  }
+
+  .notFound__btn {
+    max-width: 15rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .notFound {
+    padding: 1rem;
+    min-height: 35vh;
+  }
+
+  .notFound__title {
+    font-size: 4rem;
+  }
+
+  .notFound__subtitle {
+    font-size: 1.25rem;
+    margin: 0.5rem 0 1.25rem;
+  }
+
+  .notFound__btn {
+    max-width: 12rem;
+    font-size: 0.8rem;
+    padding: 0.8rem 1rem;
+  }
 }

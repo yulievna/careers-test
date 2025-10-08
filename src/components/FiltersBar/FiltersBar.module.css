@@ -1,47 +1,47 @@
 .filtersbar {
   display: flex;
-  gap: 16px; 
-  padding: 16px;
-  border-radius: 24px;
-  background-color: #E9E9E9;
-  margin-bottom: 28px;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background-color: #e9e9e9;
+  margin-bottom: 1.75rem;
 }
 
 .filtersbar select {
-  flex: 1; 
+  flex: 1;
   min-width: 0;
-  border: 1px solid #C7C7C7;
-  border-radius: 16px;
-  padding: 18px;
-  font-size: 16px;
+  border: 1px solid #c7c7c7;
+  border-radius: 1rem;
+  padding: 1.1rem;
+  font-size: 1rem;
   color: #000;
   background: none;
   cursor: pointer;
-  appearance: none; 
+  appearance: none;
   background-image: url('/public/assets/images/arrow-up.png');
   background-repeat: no-repeat;
-  background-position: right 12px center;
-  background-size: 16px;
+  background-position: right 0.7rem center;
+  background-size: 1rem;
   transition: border-color 0.2s ease;
 }
 
 .filtersbar select:hover {
-  border-color: #999;
+  border-color: #ef9d53;
 }
 
 .filtersbar select:focus {
   outline: none;
-  border-color: #EF9D53;
+  border-color: #ef9d53;
 }
 
 .filtersbar button {
   flex-shrink: 0;
-  min-width: 170px;
+  min-width: 10.6rem;
   border: none;
-  border-radius: 16px;
-  background: #EF9D53;
-  padding: 12px 60px;
-  font-size: 16px;
+  border-radius: 1rem;
+  background: #ef9d53;
+  padding: 0.75rem 3.75rem;
+  font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.3s ease;
@@ -49,4 +49,40 @@
 
 .filtersbar button:hover {
   background: #e08a3a;
+}
+
+@media (max-width: 768px) {
+  .filtersbar {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0.75rem;
+  }
+
+  .filtersbar select {
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .filtersbar button {
+    min-width: auto;
+    padding: 0.8rem 2rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .filtersbar {
+    gap: 0.6rem;
+    padding: 0.625rem;
+  }
+
+  .filtersbar select {
+    padding: 0.75rem;
+    font-size: 0.8rem;
+  }
+
+  .filtersbar button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.8rem;
+  }
 }

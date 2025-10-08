@@ -15,54 +15,92 @@
 }
 
 body {
-  background-color: #F0F0F0;
-  height: 100vh;
+  background-color: #f0f0f0;
+  min-height: 100vh;
 }
 .page {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; 
+  min-height: 100vh;
 }
 
 main {
-  flex: 1; 
-}
-.container{
-  width: 1780px;
-  margin: 0 auto;
+  flex: 1;
 }
 
-button{
-  font-family: 'Suisse Intl', sans-serif; 
+
+button {
+  font-family: 'Suisse Intl', sans-serif;
   border: none;
-  background-color: #EF9D53;
+  background-color: #ef9d53;
   color: #000;
   font-weight: 600;
-  font-size: 16px;
-  border-radius: 16px;
-  padding: 18px 17px;
+  font-size: 1rem;
+  border-radius: 1rem;
+  padding: 1.1rem 1.05rem;
   cursor: pointer;
 }
 .button:hover {
-    background: #E08A3A;
+  background: #e08a3a;
 }
-select, 
-input, 
+select,
+input,
 textarea {
-    background: none;
-    border: 1px solid #C7C7C7;
-    border-radius: 16px;
-    padding: 18px;
-    color: rgb(0, 0, 0, 0.6);
-    font-size: 16px;
-    font-weight: 600;
-
+  background: none;
+  border: 1px solid #c7c7c7;
+  border-radius: 1rem;
+  padding: 1.1rem;
+  color: rgb(0, 0, 0, 0.6);
+  font-size: 1rem;
+  font-weight: 600;
 }
-a{
+a {
   text-decoration: none;
   color: #000;
 }
 
 .no-scroll {
   overflow: hidden;
+}
+
+@media (max-width: 1920px) {
+  .container {
+    padding: 0 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1.25rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 0.8rem 0.9rem;
+  }
+
+  select,
+  input,
+  textarea {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding: 0 0.9rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+    padding: 0.75rem 0.8rem;
+  }
+
+  select,
+  input,
+  textarea {
+    font-size: 0.8rem;
+    padding: 0.75rem;
+  }
 }

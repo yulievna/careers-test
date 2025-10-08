@@ -1,44 +1,111 @@
 .careers__container{
-    width: 1796px;
-    margin: 0 auto;
+  width: 1796px;
+  margin: 0 auto;
 }
 .careers__title{
-    font-size: 36px;
-    font-weight: 600;
+  font-size: 36px;
+  font-weight: 600;
 }
 .careers__content{
-    margin-top: 51px;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    gap: 318px;
+  margin-top: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 318px;
 }
 .careers__sidebar{
-    max-width: 437px;
+  max-width: 437px;
 }
 .careers__info{
-    max-width: 1041px;
+  max-width: 1041px;
 }
 .careere__text{
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 1.4;
-    margin-bottom: 51px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 51px;
 }
 .careers__cards{
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+@media (max-width: 1920px) {
+  .careers__container {
+    width: 100%;
+    max-width: 1796px;
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .careers__container {
+    padding: 0 20px;
+  }
+
+  .careers__title {
+    font-size: 28px;
+  }
+
+  .careers__content {
     flex-direction: column;
-    gap: 18px;
+    gap: 40px;
+    margin-top: 30px;
+  }
+
+  .careers__sidebar {
+    max-width: 100%;
+    order: 2;
+  }
+
+  .careers__info {
+    max-width: 100%;
+    order: 1;
+  }
+
+  .careere__text {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .careers__cards {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .careers__container {
+    padding: 0 15px;
+  }
+
+  .careers__title {
+    font-size: 24px;
+  }
+
+  .careers__content {
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .careere__text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .careers__cards {
+    gap: 12px;
+  }
 }
 .emptyState{
-    margin: 20px auto;
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    align-items: center;
-    font-size: 24px;
-    width: fit-content;
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  width: fit-content;
 }
 .emptyState button{
-    width: 100%;
+  width: 100%;
 }
